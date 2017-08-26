@@ -1,0 +1,125 @@
+/* ---------------------
+Colors Palette
+
+blk #0f1a20;
+red #ff2351;
+white #f2f2f2;
+light blue #4389ff;
+medium blue #082c73;
+--------------------- */
+
+
+/* ---------------------
+Global styles
+--------------------- */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+a {
+  color: #f2f2f2;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff2351;
+}
+
+.wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.col-narrow {
+  width: 33.3333%;
+  float: left;
+  min-height: 200px;
+}
+
+.col-wide {
+  width: 66.6667%;
+  float: left;
+  min-height: 200px;
+}
+
+
+/* ---------------------
+Header and footer
+--------------------- */
+
+header, footer {
+  background-color: #0f1a20;
+  color: #f2f2f2;
+  
+}
+
+/*   header   */
+
+header h1, header h2 {
+  color: #f2f2f2;
+  font-weight: 100;
+  margin: 0;
+}
+
+.profile-img {
+  border-radius: 50%;
+  float: left;
+  margin: 30px;
+  border: solid #f2f2f2 5px;
+}
+
+.profile-content {
+  
+}
+
+
+/*   Footer   */
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+
+/* ---------------------
+Work Experience
+--------------------- */
+
+.work {
+  background-color: #4389ff;
+}
+
+
+/* ---------------------
+Education
+--------------------- */
+
+.education {
+    background-color: #4389ff;
+}

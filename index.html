@@ -4,73 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Monsalve | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
-    <!-- // Intro -->
-    <header>
-        <img src="images/me.jpg" alt="Your Name">
+  <!-- // Intro -->
+  <header>
+    <div class="wrapper">
+      <img src="images/me.jpg" alt="Your Name" class="profile-img">
+      <div class="profile-content">
         <h1>Pedro Monsalve</h1>
         <h2>Junior Ruby on Rails Developer</h2>
-        <p>With over 15 years of motion graphics, video editing and general graphic
-        design experience, I’m seeking a position where I can utilize my experience
-        to further your marketing and creative efforts while growing as a digital
-        artist.</p>
-    </header>
+        <p>With over 15 years of motion graphics and video editing experience, I’m
+        seeking an opportunity that will help me transition out of my current professional and
+        utilize my studies in computer programming to grow as a valuable asset for your
+        organization.</p>
+      </div>
+    </div>
+  </header>
 
-    <main>
-        <!-- // Work Experience -->
-        <section>
-            <h2>Work Experience</h2>
+  <main>
+    <!-- // Work Experience -->
+    <section class="work">
+      <div class="wrapper">
+        <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-
-            <!-- Add as many paragraphs as you need. -->
-            <p>Job summary.</p>
-
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for</li>
-            </ul>
-            <!-- end of Job Details block. -->
-
-        </section>
-
-
-        <!-- // Education -->
-        <section>
-            <h2>Education</h2>
-
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
-
-            <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
-            <!-- End of school details. -->
-        </section>
-    </main>
-
-    <!-- // Footer & contact info -->
-    <footer>
-        <h2>Let's Keep in Touch!</h2>
-
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:email@example.com">email@example.com</a>
-            <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="#" target="_blank">Facebook</a>
+        <!-- Experience 1 -->
+        <div class="col-narrow">
+          <h3>Motion Graphics<br>and Video Editor</h3>
+          <a href="#"><p>Newell Brands</p></a>
+          <p>01/2016 &ndash; 09/2017</p>
         </div>
+        
+        <div class="col-wide">
+          <ul>
+            <li>Motion graphics and video editing for many highly recognized brands websites,
+            social media and broadcast like Bionaire, Oster, Mr. Coffee, Crockpot, Foodsaver
+            and Sunbeam, among others.</li>
+            <li>All post production work includes: camera tracking, rotoscoping,
+            shot replacement, color correction.</li>
+            <li>Participation in making sure all videos are as engaging as possible.</li>
+            <li>Assistance and collaboration with studio productions.</li>
+            <li>Daily use of postproduction tools like: Adobe creative Suite
+            (mainly After Effects, Premiere, Photoshop), Mocha, DaVinci Resolve 12
+            and Cinema4D</li>
+            <li>Supported the web team with the coding of emails using HTML and inline CSS
+            and some HTML/CSS template pages for Demandware sites.</li>
+          </ul>
+        </div>
+        
+        <!-- Experience 2 -->
+        <div class="col-narrow">
+          <h3>Freelance Motion Graphics<br>and Video Editor</h3>
+          <a href="https://www.pixel-depth.com" target="_blank"><p>Pixel-Depth Studio</p></a>
+          <p>01/2016 &ndash; 09/2017</p>
+        </div>
+        
+        <div class="col-wide">
+          <ul>
+            <li>Motion graphics and video editing for many highly recognized brands websites,
+            social media and broadcast like Bionaire, Oster, Mr. Coffee, Crockpot, Foodsaver
+            and Sunbeam, among others.</li>
+            <li>All post production work includes: camera tracking, rotoscoping,
+            shot replacement, color correction.</li>
+            <li>Participation in making sure all videos are as engaging as possible.</li>
+            <li>Assistance and collaboration with studio productions.</li>
+            <li>Daily use of postproduction tools like: Adobe creative Suite
+            (mainly After Effects, Premiere, Photoshop), Mocha, DaVinci Resolve 12
+            and Cinema4D</li>
+            <li>Supported the web team with the coding of emails using HTML and inline CSS
+            and some HTML/CSS template pages for Demandware sites.</li>
+          </ul>
+        </div>
+        
+        
+      </div>
+    </section>
 
-        <p>Copyright 2017 by Your Name</p>
-    </footer>
+
+    <!-- // Education -->
+    <section class="education">
+      <div class="wrapper">
+        <h2>Education</h2>
+
+        <!-- School details: copy this whole block to add more schools. -->
+        <h3>School name, year you attended</h3>
+        <p>Designation received</p>
+  
+        <!-- Add as many paragraphs as you need. -->
+        <p>Summary.</p>
+        <!-- End of school details. -->
+      </div>
+    </section>
+  </main>
+
+  <!-- // Footer & contact info -->
+  <footer>
+    <div class="wrapper">
+      <h2>Let's Keep in Touch!</h2>
+
+      <!-- Social media and contact links. Add or remove any networks. -->
+      <div class="contact-info">
+          <a href="mailto:email@example.com">codeloopy@gmail.com</a>
+          <a href="http://www.pedromonsalve.com" target="_blank">my website</a>
+          <a href="https://twitter.com/Megaloopy" target="_blank">Twitter</a>
+          <a href="#" target="_blank">LinkedIn</a>
+          <a href="#" target="_blank">Facebook</a>
+      </div>
+  
+      <p>&copy; 2017 by Pedro Monsalve</p>
+    </div>
+  </footer>
 </body>
 </html>
