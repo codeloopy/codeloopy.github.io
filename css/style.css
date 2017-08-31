@@ -36,8 +36,12 @@ h2 {
   margin-top: 0;
 }
 
+h3 {
+  margin: 0;
+}
+
 a {
-  color: #f2f2f2;
+  color: #4389ff;
   text-decoration: none
 }
 
@@ -49,19 +53,33 @@ a:hover {
 .wrapper {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
+  
 }
 
 .col-narrow {
   width: 33.3333%;
   float: left;
-  min-height: 200px;
 }
 
 .col-wide {
   width: 66.6667%;
   float: left;
-  min-height: 200px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #ff2351;
+  padding: 10px;
+  color: #f2f2f2;
+  display: inline-block;
+}
+
+.button:hover {
+  color: #0f1a20;
 }
 
 
@@ -69,10 +87,20 @@ a:hover {
 Header and footer
 --------------------- */
 
+header {
+  margin-top: 10px;
+  padding-top: 40px;
+  position: relative;
+}
+
 header, footer {
   background-color: #0f1a20;
   color: #f2f2f2;
-  
+}
+
+.download {
+  position: relative;
+  margin-top: 15px;
 }
 
 /*   header   */
@@ -90,9 +118,7 @@ header h1, header h2 {
   border: solid #f2f2f2 5px;
 }
 
-.profile-content {
-  
-}
+
 
 
 /*   Footer   */
@@ -106,13 +132,54 @@ footer {
 }
 
 
+/* ---------------------
+Navigation
+--------------------- */
+nav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  display: inline-block;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  color: #0f1a20;
+}
+
+nav.a {
+  color: #0f1a20;
+}
+
+
+
 
 /* ---------------------
 Work Experience
 --------------------- */
 
 .work {
-  background-color: #4389ff;
+  background-color: #f2f2f2;
+}
+
+h3 ~ p {
+  margin: 0;
+}
+
+.job-desc p:first-of-type {
+  margin-top: 0;
+}
+
+.job-desc {
+  margin-bottom: 35px;
+}
+
+.col-narrow p {
+  color: #4389ff;
 }
 
 
@@ -121,5 +188,27 @@ Education
 --------------------- */
 
 .education {
-    background-color: #4389ff;
+  background-color: #f2f2f2;
+}
+
+p + h3 {
+  margin-top: 25px;
+}
+
+
+
+/* ---------------------
+Samples
+--------------------- */
+
+.samples {
+  background-color: #ff2351;;
+}
+
+.samples h2 {
+  color: #f2f2f2;
+}
+
+.reel {
+  text-align: center;
 }
