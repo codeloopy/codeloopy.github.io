@@ -1,2 +1,2 @@
 # codeloopy.github.io
-my coder resume
+This is actually my FCC personal portfolio project.
